@@ -1,7 +1,0 @@
-package fr.univpau.pauparkdroid;
-
-import android.widget.ArrayAdapter;
-
-public class HomeArrayAdapter extends ArrayAdapter {
-
-}
