@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+H:\Master2\Semestre1\Android\Projet-PauPark\PauPark_Workspace\.metadata\.plugins\org.eclipse.jdt.core
-3548071268.index
-2281448900.index
-3507956402.index
