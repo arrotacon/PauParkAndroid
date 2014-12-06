@@ -1,0 +1,68 @@
+package fr.univpau.pauparkdroid;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+public class Home extends Activity {
+	
+	private Spinner spinner_home;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_home);
+		
+		
+
+	}
+	
+	/*public void addItemsOnSpinnerHome() { // Methode non XML pour ajouter des Strings au spinner (la vue) grace a un adapter
+		 
+		spinner_home = (Spinner) findViewById(R.id.spinner1); // recuperation du spinner
+		List<String> list = new ArrayList<String>(); // creation d une list de Strings
+		list.add("Parking"); // ajout d'elements String a la list
+		list.add("Good Deal"); //
+		ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
+			android.R.layout.simple_spinner_item, list); // creation d un adapter pour les Strings
+		dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // on lui applique un layout de base
+		spinner_home.setAdapter(dataAdapter); // "adaptation"/"correspondance" des Strings a la vue Spinner
+	  }*/
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.home, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
+	public void OnClickHomeButton()
+	{
+		if(String.valueOf(spinner_home.getSelectedItem()) == "Parking")
+		{
+			
+		}
+		else
+		{
+			
+		}
+	}
+}

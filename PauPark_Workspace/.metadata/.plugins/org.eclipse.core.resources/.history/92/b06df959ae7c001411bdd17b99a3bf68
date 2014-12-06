@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PauParkDroid</string>
+    <string name="title_activity_home">PauParkDroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to PauParkDroid!\n\n This application allows you to know where you can park your car.\n
+        In addition, you can find other places and share it with other people. Good luck!</string>
+    <string name="home_button">Let\'s go!</string>
+    <string name="title_activity_parking">Parking</string>
+    <string name="title_activity_good_deal">GoodDeal</string>
+    
+    <string-array name="home_array">
+        <item>Parking</item>
+        <item>Good Deal</item>
+    </string-array>
+    
+
+</resources>
